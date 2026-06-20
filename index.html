@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaly Princess | Portfolio</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "Gx_cW0cTio-P1cCSS",
+      });
+   })();
+</script>
+</head>
+
+<body style="margin:0; font-family:Arial, sans-serif; background-color:#f4f7fc; color:#333;">
+
+    <!-- Header -->
+<header style="background:linear-gradient(135deg, #6a11cb, #2575fc); color:white; padding:50px 20px;">
+
+    <div style="
+        max-width:1000px;
+        margin:auto;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:30px;
+        flex-wrap:wrap;
+    ">
+
+        <!-- Profile Photo -->
+        <img
+            src="images/shaly.jpeg"
+           
+            style="
+                width:180px;
+                height:180px;
+                border-radius:50%;
+                object-fit:cover;
+                border:5px solid white;
+                box-shadow:0 4px 15px rgba(0,0,0,0.3);
+            ">
+
+        <!-- Name and Title -->
+        <div>
+            <h1 style="margin:0; font-size:42px;">
+                Shaly Princess
+            </h1>
+
+            <p style="font-size:22px; margin-top:10px;">
+                Second-Year Engineering Student
+            </p>
+
+            <p style="font-size:16px; line-height:1.6; max-width:450px;">
+                Passionate about technology, software development,
+                and creating innovative solutions to real-world problems.
+            </p>
+        </div>
+
+    </div>
+
+</header>
+
+    <!-- Navigation -->
+    <nav style="background:#ffffff; text-align:center; padding:15px; box-shadow:0 2px 5px rgba(0,0,0,0.1);">
+        <a href="#about" style="margin:0 15px; text-decoration:none; color:#2575fc; font-weight:bold;">About</a>
+        <a href="#projects" style="margin:0 15px; text-decoration:none; color:#2575fc; font-weight:bold;">Projects</a>
+        <a href="#contact" style="margin:0 15px; text-decoration:none; color:#2575fc; font-weight:bold;">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" style="padding:50px 20px; max-width:1000px; margin:auto;">
+        <h2 style="color:#2575fc;">About Me</h2>
+        <p style="font-size:18px; line-height:1.8;">
+            Hello! I'm <strong>Shaly Princess</strong>, a second-year engineering student passionate
+            about technology, software development, and innovation. I enjoy learning new programming
+            languages, building projects, and solving real-world problems through engineering and
+            technology. My goal is to continuously improve my technical skills and contribute to
+            impactful projects.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" style="background:#ffffff; padding:50px 20px;">
+        <div style="max-width:1000px; margin:auto;">
+            <h2 style="color:#2575fc;">Project Works</h2>
+
+            <div style="display:flex; flex-wrap:wrap; gap:20px; margin-top:20px;">
+
+                <div style="flex:1; min-width:250px; background:#f8f9ff; padding:20px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                    <h3>Restaurant Management System</h3>
+                    <p>
+                        Developed a DBMS project for restaurant operations involving
+                        orders, billing, reservations, and inventory management.
+                    </p>
+                </div>
+
+                <div style="flex:1; min-width:250px; background:#f8f9ff; padding:20px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        Designed and developed a responsive personal portfolio website
+                        using HTML, CSS, and web development principles.
+                    </p>
+                </div>
+
+                <div style="flex:1; min-width:250px; background:#f8f9ff; padding:20px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                    <h3>Fake News Detection System</h3>
+                    <p>
+                        Built a machine learning project to classify fake and genuine
+                        news articles by analyzing textual content.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="padding:50px 20px; max-width:1000px; margin:auto;">
+
+        <h2 style="color:#2575fc;">Contact Details</h2>
+
+        <div style="background:white; padding:25px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); margin-bottom:30px;">
+            <p><strong>Name:</strong> Shaly Princess</p>
+            <p><strong>Email:</strong> shalyprincessp@gmail.com</p>
+            <p><strong>Phone:</strong> +91 7012258776</p>
+            <p><strong>Location:</strong> Kerala, India</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/shalyprincess</p>
+            <p><strong>GitHub:</strong> github.com/shalyprincess</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div style="background:white; padding:25px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+
+            <h3 style="color:#2575fc; margin-top:0;">Contact Me</h3>
+
+            <form id="contact-form">
+
+                <div style="margin-bottom:15px;">
+                    <label><strong>Name</strong></label><br>
+
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                        style="width:100%; padding:10px; margin-top:5px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box;">
+                </div>
+
+                <div style="margin-bottom:15px;">
+                    <label><strong>Email</strong></label><br>
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                        style="width:100%; padding:10px; margin-top:5px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box;">
+                </div>
+
+                <div style="margin-bottom:15px;">
+                    <label><strong>Message</strong></label><br>
+
+                    <textarea
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message here..."
+                        required
+                        style="width:100%; padding:10px; margin-top:5px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box;"></textarea>
+                </div>
+
+                <button
+                    type="submit"
+                    style="background:#2575fc; color:white; border:none; padding:12px 25px; border-radius:5px; cursor:pointer; font-size:16px;">
+                    Send Message
+                </button>
+
+                <p id="status" style="margin-top:15px;"></p>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background:#2575fc; color:white; text-align:center; padding:20px;">
+        <p style="margin:0;">© 2026 Shaly Princess. All Rights Reserved.</p>
+    </footer>
+
+
+    <script>
+    const form = document.getElementById("contact-form");
+    const status = document.getElementById("status");
+
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        status.style.color = "#2575fc";
+        status.textContent = "Sending message...";
+
+        emailjs.sendForm(
+            "service_wbpetr9",
+            "template_640z9zp",
+            this
+        )
+        .then(function() {
+            status.style.color = "green";
+            status.textContent = "Message sent successfully!";
+
+            form.reset();
+        })
+        .catch(function(error) {
+            console.error("EmailJS Error:", error);
+
+            status.style.color = "red";
+            status.textContent =
+                " Failed to send message. Please try again.";
+        });
+    });
+</script>
+</body>
+</html>
